@@ -13,10 +13,10 @@ import weatherApp from './Weather-App.jpg';
 import newsApp from './newsApp.jpeg'
 import CryptoApp from './crypto-app.png';
 import expenseManager from './expense-manager.png'
-import wave from './wave.png';
-import hero from './hero.jpg'
+import wave from './wave.png'
+import photo from './hero.jpg'
 export {
-    hero,
+    photo,
     github,
     insta,
     linkedin,

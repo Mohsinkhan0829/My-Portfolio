@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import emailjs from '@emailjs/browser';
+import emailjs, { sendForm } from '@emailjs/browser';
 import { useRef } from 'react';
 
 const ContactUs = () => {
@@ -9,15 +9,17 @@ const ContactUs = () => {
     const [done , setDone] = useState(false)
     const sendEmail = (e) => {
       e.preventDefault();
-  
+
       emailjs.sendForm('service_jfe52ql', 'template_dsahb0r', form.current, 'NoSUewWql5TFJJu-Z')
         .then((result) => {
             console.log(result.text);
-            setDone(true)
+            setDone(true);
         }, (error) => {
             console.log(error.text);
         });
+
     };
+  
   
   return (
     <div className='Contact-form' id='Contact'>

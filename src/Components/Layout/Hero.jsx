@@ -1,5 +1,5 @@
 import React from "react";
-import { github,hero,insta ,linkedin, mk} from "../../assets/Img";
+import { github,insta ,linkedin, photo,} from "../../assets/Img";
 const Hero = () => {
   return (
     <div className="hero-container">
@@ -36,7 +36,7 @@ const Hero = () => {
 
       <div className="Hero-img-container">
         <div className="perspective-container">
-          <img src={hero} />
+          <img src={photo} />
         </div>
       </div>
     </div>

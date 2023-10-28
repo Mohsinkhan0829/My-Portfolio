@@ -120,7 +120,7 @@ margin: 2px;
 
 }
 .position{
-  color:red;
+  color:orange;
   font-size: 20px;
   font-weight: 700;
 }
@@ -184,8 +184,7 @@ cursor: pointer;
 width: 100%;
 height: 80vh;
 border-radius: 10%;
-border: 2px solid orange;
-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;}
+box-shadow: rgba(229, 153, 2, 0.9) 0px 0px 5px 0px, rgba(242, 190, 2, 0.917) 0px 0px 1px 0px;}
 
 
 .Services{
@@ -295,7 +294,7 @@ padding-bottom: 15px;
   position: absolute;
   margin: 20px 0px;
   border-radius: 20px;
-  box-shadow: rgba(238, 115, 0, 0.8) 0px 7px 29px 0px;
+  box-shadow: rgba(167, 146, 120, 0.8) 0px 7px 29px 0px;
 }
 .react-png{
 height: 80px;
@@ -339,7 +338,7 @@ display: flex;
   margin: 10px;
   border-radius: 20px;
   border: 2px solid orange;
-  box-shadow: rgba(234, 157, 3, 0.4) 0px 30px 90px;}
+  box-shadow: rgba(245, 236, 195, 0.4) 0px 30px 90px;}
   .Projects-card:hover{
 transition: 0.5s;
 }
@@ -375,7 +374,7 @@ transition: 0.5s;
 }
 .Project-card-content h4{
   margin: 10px 0px;
-  color: rgb(226, 233, 9)  
+  color: orange  
 }
 .Project-card-content p{
   font-size: 12px;
@@ -388,7 +387,7 @@ transition: 0.5s;
   padding: 5px;
   border-radius: 15px; 
   margin: 10px 0px; 
-  box-shadow: rgba(241, 138, 4, 0.927) 0px 5px 15px;
+  box-shadow: rgba(241, 138, 4, 0.427) 0px 5px 15px;
 
 }
 .Projects-card button:hover{
@@ -481,7 +480,7 @@ textarea{
   flex-direction: column;
   height: 400px;
   width: 900px;
-  box-shadow: rgba(211, 73, 14, 0.56) 0px 22px 70px 4px;  
+  box-shadow: rgba(208, 194, 188, 0.36) 0px 22px 70px 4px;  
 }
 .About-me h1{
   font-size: 40px;
@@ -623,7 +622,7 @@ padding: 0px;
     height: 90vh;
   }
   .Footer{
-    margin-top:3rem;
+    margin-top:8rem;
   }
 
 }
