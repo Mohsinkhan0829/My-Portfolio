@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { bootstrap, css, html, js, material, react } from "../../assets/Img";
 
 const ServicesCards = () => {
   useEffect(() => {
@@ -14,9 +15,9 @@ const ServicesCards = () => {
         <p>Web Developer</p>
 
         <div className="webdeveloper-icon">
-        <img src="./src/img/html-logo.png" id="html-png"/>
-        <img src="./src/img/css-png.webp" alt="" srcset="" />
-        <img src="./src/img/js.png" alt="" srcset="" />
+        <img src={html} id="html-png"/>
+        <img src={css} alt="" srcset="" />
+        <img src={js} alt="" srcset="" />
 
         </div>
       </div>
@@ -26,7 +27,7 @@ const ServicesCards = () => {
         data-aos="fade-left"
         style={{ top: "10rem", left: "2rem" }}
       >
-        <img className="react-png"  src="./src/img/react.png"/>
+        <img className="react-png"  src={react}/>
         <p>React.js , Redux</p>
       </div>
 
@@ -38,8 +39,8 @@ const ServicesCards = () => {
         <img src="/src/img/desined.png" alt="" />
         <p>Design</p>
       <div className="Design-icons">
-      <img src="./src/img/bootstrap.png"/>
-      <img src="./src/img/material.webp"/>
+      <img src={bootstrap}/>
+      <img src={material}/>
       </div>
       </div>
     </div>

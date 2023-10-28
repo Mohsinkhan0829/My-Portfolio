@@ -18,10 +18,9 @@ const About = () => {
 
         <p>
           My name is Mohsin, I have been studying Commerce with computer. at the
-          time i was in collage i love to play computers , In order to start my
+          time i was in collage i love to using computers, In order to start my
           career i choose Web development because of i like to create new things
-          in technologies, Than I move forward to my career from non-tech
-          background to tech beckground. I started learning tech-languages like
+          in technologies. I started learning tech-languages like
           html,Css,Bootstrap and javascript from online source like Udemy and
           Youtube, after that i join E-skill Web for Learning new technologies
           like React and Redux with it i also learn html css and javascript and

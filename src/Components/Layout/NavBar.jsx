@@ -5,10 +5,7 @@ import { Link } from "react-scroll";
 const NavBar = () => {
   return (
     <nav className="nav" id="Home">
-      <Link spy={true} to="Mohsin" smooth={false} activeClass="activeClass">
         <h3 className="nav-logo" id="Mohsin">Mohsin</h3>
-      </Link>
-      <Toggle />
 
       <span className="nav-box">
         <ul className="nav-links-container">

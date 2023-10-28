@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,800;1,200;1,300;1,400&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,800;1,200;1,300;1,400&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -9,41 +7,45 @@
 font-family: 'Libre Baskerville', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Slab', serif;
-background-color:black;
-color: rgb(253, 245, 245);
+font-family: 'Signika Negative', sans-serif;
+background-color: aliceblue;
+
 }
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0px 20px;
   height: 10vh;
-}
+  box-shadow: rgba(234, 159, 9, 0.24) 0px 3px 8px;}
 .nav-logo{
-  width: 20%;
-  font-size: 40px;
+  width: 30%;
+  font-size: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: yellow;
-  margin: 10px 0px;
+color:orange;
+font-weight: 800;
   justify-content: space-between;
 }
 .nav-box {
   width: 50%;
 }
 .nav-links-container {
-  width: 80%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 12px;
 }
 
 .nav-links {
   display: flex;
   justify-content: space-between;
   text-decoration: none;
-  color: aliceblue;
+color: orange;
+font-weight: 800;
+font-size: 20px;
 }
 .nav-links :nth-child(1){
   text-decoration: none;
@@ -55,8 +57,9 @@ border-radius: 5px;
 font-weight: bolder;
 
 color: white;
-  background-color: black;
-  border: 1px solid white;
+  background-color: orange;
+  border: none;
+  box-shadow: rgba(24, 31, 21, 0.35) 0px 5px 15px;
 }
 
 .contact-button:hover{
@@ -67,7 +70,7 @@ color: white;
 }
 
 .nav-links:hover{
-color: yellow;
+color: rgb(119, 113, 113);
 cursor: pointer;
 transition: 0.5s;
 }
@@ -88,7 +91,7 @@ margin: 2px;
 }
 .t-button{
   border-radius: 100%;
-  background-color: yellow;
+  background-color: orange;
   position: absolute;
 }
 
@@ -108,7 +111,7 @@ margin: 2px;
   width: 60%;
   height: 90vh;
   padding: 20px;
-  color: white;
+  color: darkslategray;
  padding-left: 80px;
  position: relative;
  display: flex;
@@ -117,8 +120,9 @@ margin: 2px;
 
 }
 .position{
-  color:yellow;
+  color:red;
   font-size: 20px;
+  font-weight: 700;
 }
 
 
@@ -129,18 +133,18 @@ svg {
 svg text {
 	animation: stroke 4s infinite alternate;
 	stroke-width: 2;
-	stroke: #F3DD26;
+	stroke: rgb(77, 76, 72);
 	font-size: 80px;
 }
 @keyframes stroke {
 	0%   {
-		fill: rgba(240,245,31,0); stroke: rgba(243,221,38,1);
+		fill: rgba(240,245,31,0); stroke: rgb(233, 111, 12);
 		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
 	}
-	70%  {fill: rgba(240,245,31,0); stroke: rgba(243,221,38,1); }
-	80%  {fill: rgba(240,245,31,0); stroke: rgba(243,221,38,1); stroke-width: 3; }
+	70%  {fill: rgba(240,245,31,0); stroke: rgb(40, 26, 20); }
+	80%  {fill: rgba(240,245,31,0); stroke: rgba(244, 130, 7, 0.892); stroke-width: 3; }
 	100% {
-		fill: rgba(240,245,31,1); stroke: rgba(243,221,38,0);
+		fill: rgb(215, 124, 12); stroke: rgba(243,221,38,0);
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
 	}
 }
@@ -152,6 +156,7 @@ svg text {
 }
 .i-icons img{
 transform: scale(0.5);
+
 }
 .i-icons img:hover{
 cursor: pointer;
@@ -160,7 +165,7 @@ cursor: pointer;
 
 .Hero-img-container{
   width: 40%;
-  height: 90vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -172,15 +177,15 @@ cursor: pointer;
   position: relative;
   --sheenX: 0; 
   --sheenY: 0;
+
 }
 
 .Hero-img-container img{
 width: 100%;
 height: 80vh;
 border-radius: 10%;
-border: 5px solid yellow;
-
-}
+border: 2px solid orange;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;}
 
 
 .Services{
@@ -191,6 +196,7 @@ border: 5px solid yellow;
   margin-bottom: 8rem;
   margin-top: 2rem;
   position: relative;
+  color: darkslategray;
 }
 .Left-services{
   display: flex;
@@ -204,25 +210,26 @@ border: 5px solid yellow;
 
 }
 .Left-services :nth-child(2){
-  color: yellow;
+  color: orange;
+  font-weight: 800;
   font-size: 2rem;
   margin: 10px 0px;
 
 }
 .Left-services :nth-child(3){
-  color: rgb(119, 113, 113);
+  color: darkslategray;
   margin: 10px 0px;
 
 }
 
 .Download-cv{
-  background-color:black;
+  background-color:orange;
   border: none;
   border-radius: 10px;
   height: 40px;
   width: 50%;
   font-weight: bolder;
-  box-shadow: rgba(223, 243, 11, 0.925) 0px 1px 4px, rgb(229, 229, 8) 0px 0px 0px 3px;
+  box-shadow: rgba(62, 64, 7, 0.925) 0px 1px 4px, rgb(249, 249, 246) 0px 0px 0px 3px;
 margin-top: 15%;
 display: flex;
 align-items: center;
@@ -231,8 +238,8 @@ text-decoration: none;
 color: white;
 }
 .Download-cv:hover{
-  background-color: yellow;
-  color: black;
+  background-color: rgb(4, 133, 23);
+  color: rgb(239, 241, 237);
   transition: 0.8s;
 }
 .webdeveloper-icon{
@@ -282,11 +289,13 @@ padding-bottom: 15px;
   flex-direction: column;
   margin-left: 20px;
   padding: 20px;
-  border: 5px solid yellow;
+  border: 5px solid orange;
+  color: darkslategray;
+  font-weight: 800;
   position: absolute;
   margin: 20px 0px;
   border-radius: 20px;
-  box-shadow: rgba(235, 208, 3, 0.933) 0px 2px 4px, rgba(232, 213, 4, 0.928) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(238, 115, 0, 0.8) 0px 7px 29px 0px;
 }
 .react-png{
 height: 80px;
@@ -294,8 +303,7 @@ padding: 10px;
 }
 
 .Card:hover{
-  box-shadow: rgba(236, 235, 233, 0.933) 0px 2px 4px, rgba(241, 241, 237, 0.928) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  border: 5px solid rgb(250, 250, 247);
+  border: 5px solid rgb(240, 244, 240);
 transition: 0.5s;
 }
 
@@ -313,11 +321,12 @@ display: flex;
 }
 .project-intro h1{
   font-size: 40px;
-  color: white;
+  color: darkslategray;
+
 }
 
 .project-intro span{
-  color: yellow;
+  color: orange;
   font-size: 50px;
 }
 
@@ -329,10 +338,9 @@ display: flex;
   padding: 10px;
   margin: 10px;
   border-radius: 20px;
-  border: 2px solid rgb(242, 242, 240);
-}
-.Projects-card:hover{
-  box-shadow: rgba(236, 235, 233, 0.933) 0px 2px 4px, rgba(241, 241, 237, 0.928) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border: 2px solid orange;
+  box-shadow: rgba(234, 157, 3, 0.4) 0px 30px 90px;}
+  .Projects-card:hover{
 transition: 0.5s;
 }
 .Projects-card:hover .Project-card-img img {
@@ -375,11 +383,13 @@ transition: 0.5s;
 .Projects-card button{
   border: none;
   width: 150px;
-  background-color: rgb(242, 27, 11);
+  background-color: orangered;
   color: white;
   padding: 5px;
   border-radius: 15px; 
   margin: 10px 0px; 
+  box-shadow: rgba(241, 138, 4, 0.927) 0px 5px 15px;
+
 }
 .Projects-card button:hover{
   background-color: #F3DD26;
@@ -392,15 +402,18 @@ transition: 0.5s;
 .Contact-form{
   padding: 0rem 3rem 0 3rem;
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   height: 80vh;
-  margin-top: 4rem;
   padding: 80px;
 }
 .Contact-right{
   display: flex;
   justify-content: center;
   position: relative;
-  flex: 1;
+  padding: 40px;
+border-radius: 30px;
+box-shadow: rgba(176, 176, 172, 0.921) 0px 0.0625em 0.0625em, rgba(182, 180, 177, 0.947) 0px 0.125em 0.5em, rgba(237, 236, 229, 0.929) 0px 0px 0px 1px inset;
 }
 .Contact-right form{
   display: flex;
@@ -413,26 +426,25 @@ transition: 0.5s;
   height: 4rem;
   padding: 0.3rem;
   outline: none;
-  border: 4px solid rgb(245, 233, 4);
+  border: 2px solid rgb(251, 165, 28);
   border-radius: 8px;
   font-size: 16px;
-  background-color: aliceblue;
   color: black;
 }
 .Contact-right .button{
   width:15rem;
   height: 3rem;
-  background-color: yellow;
+  background-color: orange;
 
   border-radius: 8px;
   border: none;
-  color: black;
+  color: white;
   font-weight: bolder;
+  box-shadow: rgba(40, 39, 38, 0.927) 0px 5px 15px;
+
 }
 .Contact-right .button:hover{
-  background-color: white;
-  box-shadow: rgba(236, 235, 233, 0.933) 0px 2px 4px, rgba(241, 241, 237, 0.928) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-
+  background-color: green;
   transition: 0.5s;
 }
 textarea{
@@ -469,22 +481,22 @@ textarea{
   flex-direction: column;
   height: 400px;
   width: 900px;
-  
+  box-shadow: rgba(211, 73, 14, 0.56) 0px 22px 70px 4px;  
 }
 .About-me h1{
   font-size: 40px;
-  color: #F3DD26;
+  color: orange;
   padding: 5px;
 }
 .About-me span{
   font-size: 20px;
-  color: yellow; 
+  color: orangered; 
 }
 .Footer{
   display: flex;
   align-items: center;
  position: relative;
- margin-top: -7rem;
+ margin-top: -0rem;
  }
 .Footer img{
   height: 300px;
@@ -535,6 +547,9 @@ textarea{
   
   .nav-links-container {
     display: none;
+  }
+  .nav-logo{
+    width: 100%;
   }
   .nav-box{
     width: 100%;
@@ -594,16 +609,21 @@ padding: 20px;
 }
 
   .Contact-form{
-    height: 90vh;
-    padding: 20px;
-    margin: 20px;
+padding: 0px;
     flex-direction: column;
   }
+  .Contact-left{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+  }
+  
   .About-me{
     height: 90vh;
   }
   .Footer{
-    margin-top:10rem;
+    margin-top:3rem;
   }
 
 }

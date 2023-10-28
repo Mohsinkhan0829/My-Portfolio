@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import { CryptoApp, expenseManager, newsApp, weatherApp } from "../../assets/Img";
 const ProjectsCards = () => {
   useEffect(()=>{
     Aos.init()
@@ -15,7 +16,7 @@ const ProjectsCards = () => {
         <div className="Projects-card" data-aos="zoom-in-up">
 
           <div className="Project-card-img">
-            <img src="/src/img/Weather-APp.jpg" />
+            <img src={weatherApp}/>
           </div>
 
           <div className="Project-card-content">
@@ -35,7 +36,7 @@ const ProjectsCards = () => {
 
         <div className="Projects-card" data-aos="zoom-in-down">
           <div className="Project-card-img">
-            <img src="/src/img/newsApp.jpeg" />
+            <img src={newsApp}/>
           </div>
 
           <div className="Project-card-content">
@@ -52,7 +53,7 @@ const ProjectsCards = () => {
 
         <div className="Projects-card" data-aos="zoom-in-down">
           <div className="Project-card-img">
-            <img src="/src/img/crypto-app.png" />
+            <img src={CryptoApp} />
           </div>
 
           <div className="Project-card-content">
@@ -72,7 +73,7 @@ const ProjectsCards = () => {
 
         <div className="Projects-card" data-aos="zoom-in-up">
           <div className="Project-card-img">
-            <img src="/src/img/expense-img.jpg" />
+            <img src={expenseManager} />
           </div>
 
           <div className="Project-card-content">
