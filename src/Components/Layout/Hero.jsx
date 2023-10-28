@@ -1,5 +1,4 @@
 import React from "react";
-
 const Hero = () => {
   return (
     <div className="hero-container">
@@ -23,7 +22,7 @@ const Hero = () => {
         </p>
         <div className="i-icons">
           <a href="https://github.com/Mohsinkhan0829">
-            <img src="/src/img/github.png" alt="" />
+            <img src="./src/img/github.png"/>
           </a>
           <a href="https://www.instagram.com/mr_khan0_/">
             <img src="/src/img/instagram.png" alt="" />
@@ -36,7 +35,7 @@ const Hero = () => {
 
       <div className="Hero-img-container">
         <div className="perspective-container">
-          <img src="/src/img/mk img.png" />
+          <img src="./src/img/mk img.png" />
         </div>
       </div>
     </div>
