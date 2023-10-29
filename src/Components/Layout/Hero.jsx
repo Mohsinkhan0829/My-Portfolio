@@ -1,5 +1,5 @@
 import React from "react";
-import { github,insta ,linkedin, photo,} from "../../assets/Img";
+import { github, insta, linkedin, photo } from "../../assets/Images";
 const Hero = () => {
   return (
     <div className="hero-container">

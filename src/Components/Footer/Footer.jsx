@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaFacebook, FaGit, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import { wave } from '../../assets/Img';
+import { FaGit, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { wave } from '../../assets/Images';
 
 const Footer = () => {
   return (

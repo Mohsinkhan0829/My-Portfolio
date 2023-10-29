@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Webdeveloper, bootstrap, css, desined, html, js, material, react } from "../../assets/Img";
+import { Webdeveloper, bootstrap, css, desined, html, js, material, react } from "../../assets/Images";
 
 const ServicesCards = () => {
   useEffect(() => {

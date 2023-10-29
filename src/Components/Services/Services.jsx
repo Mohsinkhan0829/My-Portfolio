@@ -1,6 +1,6 @@
 import React from 'react'
 import ServicesCards from './ServicesCards'
-import { resume } from '../../assets/Img'
+import { resume } from '../../assets/Images'
 
 
 const Services = () => {

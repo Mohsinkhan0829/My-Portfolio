@@ -1,7 +1,6 @@
 import github from './github.png'
 import insta from './instagram.png'
 import linkedin from './linkedin.png'
-import mk from './mk img.png'
 import material from './material.webp'
 import react from './react gif.gif'
 import expanse from './expense-manager.png'
@@ -29,7 +28,6 @@ export {
     Webdeveloper,
     desined,
     linkedin,
-    mk,
     material,
     react,
     expanse,
