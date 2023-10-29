@@ -15,17 +15,16 @@ import expenseManager from './expense-manager.png'
 import wave from './wave.png'
 import photo from './hero.jpg'
 import Nothing from './Nothing.jpeg'
-import Webdeveloper from './Webdeveloper.png';
 import desined from './desined.png';
 import resume from './MyResume2.pdf'
-
+import webicon from './webdeveloper.png'
 export {
+    webicon,
     Nothing,
     resume,
     photo,
     github,
     insta,
-    Webdeveloper,
     desined,
     linkedin,
     material,
