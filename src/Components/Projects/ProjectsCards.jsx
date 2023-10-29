@@ -1,22 +1,22 @@
 import React, { useEffect } from "react";
-import Aos from 'aos';
-import 'aos/dist/aos.css'
-import { CryptoApp, expenseManager, newsApp, weatherApp } from "../../assets/Img";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import {
+  CryptoApp,
+  Nothing,
+  expenseManager,
+  weatherApp,
+} from "../../assets/Img";
 const ProjectsCards = () => {
-  useEffect(()=>{
-    Aos.init()
-  },[])
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
-  
       <div className="container">
-
-        
-
         <div className="Projects-card" data-aos="zoom-in-up">
-
           <div className="Project-card-img">
-            <img src={weatherApp}/>
+            <img src={weatherApp} />
           </div>
 
           <div className="Project-card-content">
@@ -31,24 +31,25 @@ const ProjectsCards = () => {
 
           <a href="https://weather-app-tau-snowy.vercel.app/">
             <button>View More</button>
-            </a>
+          </a>
         </div>
 
         <div className="Projects-card" data-aos="zoom-in-down">
           <div className="Project-card-img">
-            <img src={newsApp}/>
+            <img src={Nothing} />
           </div>
 
           <div className="Project-card-content">
-            <h4>News-App</h4>
+            <h4>Nothing-clone</h4>
             <p>
-              Developed a web-based News App that allows users to browse and
-              search for the latest news articles from various sources using
-              React.js for the frontend.
+              Developed a clone of nothing phone by using HTML and CSS to get
+              experience in creating the layout of web pages,this practice
+              provides a practical hands-on experience in building a structure of the original site.
             </p>
           </div>
-          <button>View More</button>
-
+          <a href="https://nothing-phone-clone.vercel.app/">
+            <button>View More</button>
+          </a>
         </div>
 
         <div className="Projects-card" data-aos="zoom-in-down">
@@ -63,12 +64,11 @@ const ProjectsCards = () => {
               coin and app will be showing all the coin related to user text
               also user can see details and current prices
             </p>
-           
           </div>
 
           <a href="https://crypto-app-umber-rho.vercel.app/">
             <button>View More</button>
-            </a>
+          </a>
         </div>
 
         <div className="Projects-card" data-aos="zoom-in-up">
@@ -83,11 +83,10 @@ const ProjectsCards = () => {
               income and expenses and the app will show how much the user spent
               and how much is lef
             </p>
-            
           </div>
           <a href="https://expanse-manager-app-tmrs.vercel.app/">
             <button>View More</button>
-            </a>
+          </a>
         </div>
       </div>
     </>

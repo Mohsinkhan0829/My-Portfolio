@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { bootstrap, css, html, js, material, react } from "../../assets/Img";
+import { Webdeveloper, bootstrap, css, desined, html, js, material, react } from "../../assets/Img";
 
 const ServicesCards = () => {
   useEffect(() => {
@@ -11,8 +11,7 @@ const ServicesCards = () => {
   return (
     <div className="cards">
       <div data-aos="fade-right" className="Card" style={{ left: "25rem" }}>
-        <img src="src/img/webdeveloper.png" alt="" />
-        <p>Web Developer</p>
+        <img src={Webdeveloper} alt="" />
 
         <div className="webdeveloper-icon">
         <img src={html} id="html-png"/>
@@ -36,8 +35,7 @@ const ServicesCards = () => {
         data-aos="zoom-in-down"
         style={{ top: "22rem", left: "20rem" }}
       >
-        <img src="/src/img/desined.png" alt="" />
-        <p>Design</p>
+        <img src={desined} alt="" />
       <div className="Design-icons">
       <img src={bootstrap}/>
       <img src={material}/>

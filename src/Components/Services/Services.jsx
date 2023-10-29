@@ -1,5 +1,6 @@
 import React from 'react'
 import ServicesCards from './ServicesCards'
+import { resume } from '../../assets/Img'
 
 
 const Services = () => {
@@ -11,7 +12,7 @@ const Services = () => {
         <p>I love to creating new thing in technologies 
         <br /> like creating Web-Apps and website's.</p>
        <a  className='Download-cv'
-        href='./src/Resume/MyResume2.pdf' download>        
+        href={resume} download>        
        Download CV
         
        </a>

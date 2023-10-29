@@ -33,7 +33,7 @@ const ContactUs = () => {
             <form ref={form} onSubmit={sendEmail}>
                 <input type="text" name='user_name' className='user' placeholder='Name' required />
                 <input type="email" name='user_email' className='user' placeholder='Email' required/>
-                <textarea name="message" cols="30" rows="5" className='user' placeholder='Message' required></textarea>
+                <textarea name="message" cols="30" rows="5" className='user' placeholder='Massage' required></textarea>
                 <input type="submit" value="Send-Massage" className='button' />
                 <span>{done && "Thanks for contacting me."}</span>
             </form>
