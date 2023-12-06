@@ -16,7 +16,7 @@ import wave from './wave.png'
 import photo from './hero.jpg'
 import Nothing from './Nothing.jpeg'
 import desined from './desined.png';
-import resume from './MyResume.pdf'
+import resume from './Mohsin-khan-Resume-.pdf'
 import webicon from './webdeveloper.png'
 export {
     webicon,
