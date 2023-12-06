@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { CryptoApp, Nothing, expenseManager, weatherApp } from "../../assets/Images";
+import { CryptoApp, Ecommerce, expenseManager, weatherApp } from "../../assets/Images";
 
 const ProjectsCards = () => {
   useEffect(() => {
@@ -32,18 +32,16 @@ const ProjectsCards = () => {
 
         <div className="Projects-card" data-aos="zoom-in-down">
           <div className="Project-card-img">
-            <img src={Nothing} />
+            <img src={Ecommerce} />
           </div>
 
           <div className="Project-card-content">
-            <h4>Nothing-clone</h4>
+            <h4>Ecommerce-Store</h4>
             <p>
-              Developed a clone of nothing phone by using HTML and CSS to get
-              experience in creating the layout of web pages,this practice
-              provides a practical hands-on experience in building a structure of the original site.
+              I create a fully responsive Ecommerce-Store Application with having full functonality by using ReactJs and CSS.
             </p>
           </div>
-          <a href="https://nothing-phone-clone.vercel.app/">
+          <a href="https://ecommerce-store-app-three.vercel.app/">
             <button>View More</button>
           </a>
         </div>

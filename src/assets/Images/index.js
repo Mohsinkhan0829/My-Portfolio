@@ -14,13 +14,13 @@ import CryptoApp from './crypto-app.png';
 import expenseManager from './expense-manager.png'
 import wave from './wave.png'
 import photo from './hero.jpg'
-import Nothing from './Nothing.jpeg'
 import desined from './desined.png';
 import resume from './Mohsin-khan-Resume-.pdf'
 import webicon from './webdeveloper.png'
+import Ecommerce from './ecommerce.jpg';
 export {
+    Ecommerce,
     webicon,
-    Nothing,
     resume,
     photo,
     github,
